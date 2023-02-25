@@ -1,0 +1,124 @@
+.contentBody {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 55px 140px;
+  font-family: "Roboto";
+}
+
+.filterLabel {
+  margin-bottom: 10px;
+}
+
+.selectMenu {
+  width: 25%;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.divider {
+  height: 2px;
+  width: 100%;
+  background-color: rgba(239, 239, 239, 255);
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.usersContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  height: 210px;
+  width: 320px;
+  padding: 35px 20px 50px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.userInfoContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.userName {
+  font-size: larger;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-size: small;
+}
+
+.userDetails {
+  font-weight: bolder;
+}
+
+.dateContainer {
+  display: flex;
+}
+
+.convertButton {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 40px;
+  background-color: rgba(210, 16, 69, 255);
+  width: fit-content;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .contentBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px 10px;
+    font-family: "Roboto";
+  }
+
+  .selectMenu {
+    width: 55%;
+    padding: 7px;
+  }
+
+  .usersContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 310px;
+    width: 250px;
+    padding: 25px 10px 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+  .userInfoContainer {
+    margin-top: 15px;
+  }
+
+  .dateContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

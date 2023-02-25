@@ -1,0 +1,11 @@
+.districtManagerTitle {
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(250, 249, 244, 255);
+  font-family: "Golos Text", sans-serif;
+  color: rgba(84, 68, 68, 255);
+  margin-top: 80px;
+}
+
